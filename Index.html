@@ -1,0 +1,57 @@
+<!DOCTYPE HTML5>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel='stylesheet' href='Styles/bootstrap.css'>
+    <link rel='stylesheet' href='Styles/bootstrap.min.css'>
+    <link rel='stylesheet' href='Styles/looks.css'>
+    <link rel='stylesheet' href='Styles/font-awesome.min.css'>
+    <link rel='stylesheet' href='Styles/font-mfizz.css'>
+  </head>
+<body>
+  <header>
+
+  </header>
+    <div>
+      <table>
+        <tr>
+          <td class='cell' id='0'></td>
+          <td class='cell' id='1'></td>
+          <td class='cell' id='2'></td>
+        </tr>
+        <tr>
+          <td class='cell' id='3'></td>
+          <td class='cell' id='4'></td>
+          <td class='cell' id='5'></td>
+        </tr>
+        <tr>
+          <td class='cell' id='6'></td>
+          <td class='cell' id='7'></td>
+          <td class='cell' id='8'></td>
+        </tr>
+      </table>
+          <div class='winner'>
+              <div class='text'>
+
+              </div>
+          </div>
+          <div class = "selectSym">
+    <p>Select symbol:</p>
+      <button onClick="selectSym('X')">X</button>
+      <button onClick="selectSym('O')">O</button>
+    </div>
+          <button onClick='startGame()'>Reset</button>
+    </div>
+
+  <footer>
+
+  </footer>
+
+</body>
+<foot>
+    <!--  <script type='text/javascript' src='Scripts/jquery-3.2.1.min.js'></script>
+      <script type='text/javascript' src='Scripts/bootstrap.js'></script>-->
+      <script type='text/javascript' src='Scripts/ttt.js'></script>
+</foot>
+</html>
